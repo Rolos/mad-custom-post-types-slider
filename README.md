@@ -1,3 +1,7 @@
+Mad Custom Post Types Slider
+============================
+This plugin is just a modification of **WP Parallax Content Slider** by wp-maverick.
+
 === WP Parallax Content Slider ===
 Plugin Author: wp-maverick
 Donate link: http://jltweb.info/realisations/wp-parallax-content-plugin/#contribute
