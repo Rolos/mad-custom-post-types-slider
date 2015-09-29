@@ -436,8 +436,8 @@ DYNAMICOUTPUT;
 	 */
 	function admin_menu()
 	{
-		$page = add_options_page( __( 'Selected Posts Slider (Intermade)', 'wp-parallax-content-slider' ),
-								  __( 'Selected Posts Slider', 'wp-parallax-content-slider' ),
+		$page = add_options_page( __( 'Custom Post Types Slider', 'wp-parallax-content-slider' ),
+								  __( 'Custom Post Types Slider', 'wp-parallax-content-slider' ),
 								  'administrator', 'wp-parallax-content-slider',
 								  array( $this, 'admin_interface' ) );
 	}
@@ -573,7 +573,7 @@ DYNAMICOUTPUT;
 </script>
 <div class="wrap">
 	<div class="icon32" id="icon-options-general"><br /></div>
-	<h2><?php _e( 'Selected posts Slider Settings', 'wp-parallax-content-slider' ); ?></h2>
+	<h2><?php _e( 'Custom Post Types Slider Settings', 'wp-parallax-content-slider' ); ?></h2>
 
 	<h3><?php _e( 'Code to insert', 'wp-parallax-content-slider' ); ?></h3>
 	<p><?php _e( 'The code below must be inserted in a Wordpress file, where you want to display the parallax content slider:', 'wp-parallax-content-slider' ); ?></p>
